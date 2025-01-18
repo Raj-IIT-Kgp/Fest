@@ -1,0 +1,27 @@
+name = "fest"
+main = "src/index.ts"
+compatibility_date = "2025-01-15"
+compatibility_flags = [ "nodejs_compat" ]
+
+[vars]
+DATABASE_URL="prisma://accelerate.prisma-data.net/?api_key=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlfa2V5IjoiYjkxZjliOTMtMzljYS00MmNmLWFiNzMtMjg4YzYzNmZhNmNkIiwidGVuYW50X2lkIjoiZTMzOTc1ZWQ0MjQzOTkxOTQ0MjU2YmMyYzEwNDcwZTA1NmNkM2JmZmY1NWM2YjQ3MjRkOWE2NzcwNjY5ZTljYyIsImludGVybmFsX3NlY3JldCI6IjllODlkMTcwLWUzYzItNGY5NS05YTRkLWFlNGVkMTcyMjJjZiJ9.2BgOfWfQyf81cN0bjueGty8QAamQRj0y0CShlbKQ0yk"
+JWT_SECRET="Raj9339"
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
+
+# [ai]
+# binding = "AI"
+
+# [observability]
+# enabled = true
+# head_sampling_rate = 1
